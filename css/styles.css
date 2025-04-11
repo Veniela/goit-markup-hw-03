@@ -25,7 +25,9 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
     max-width: 1158px;
      padding: 0 15px;
-     margin: 0 auto;   
+     margin: 0 auto;
+     padding-left: 15px;   
+     padding-right: 15px;
 }
 
 /* Header */
@@ -109,16 +111,31 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Section 1 */
+
 .hero-section {
     background-color: #2e2f42;
+    height: 600px;
+}
+
+.title-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 192px;
 }
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07;Y
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+        margin-right: auto;
+        margin-left: auto;
+
 }
 
 .hero-button {
