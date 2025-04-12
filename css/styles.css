@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 /* common */
 
 .container {
@@ -98,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact-link {
     display: block;
-    padding: 24 0;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
