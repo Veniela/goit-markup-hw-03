@@ -18,11 +18,7 @@ ul {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-}
-
-img {
-    display: block;
-}
+} 
 
 /* common */
 
@@ -132,13 +128,13 @@ img {
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.07;Y
-    text-align: center;
+    line-height: 1.07;
+    Y text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-        margin-right: auto;
-        margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
