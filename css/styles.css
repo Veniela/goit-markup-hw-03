@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
 img {
     display: block;
 }
+
 /* common */
 
 .container {
@@ -31,6 +32,7 @@ img {
      margin: 0 auto;
      padding-left: 15px;   
      padding-right: 15px;
+     border-bottom: #e7e9fc;
 }
 
 /* Header */
@@ -62,7 +64,6 @@ img {
 }
 
 .header-logo {
-    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -117,7 +118,7 @@ img {
 
 .hero-section {
     background-color: #2e2f42;
-    height: 600px;
+    padding-bottom: 292px;
 }
 
 .title-container {
@@ -149,7 +150,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer;
+    border-radius: 4px;
+        width: 169px;
+        height: 56px;
+        display: block;
+    
 }
 
 .hero-button:hover,
@@ -159,6 +164,14 @@ img {
 
 /* Features Section 2 */
 
+.features-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-title {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -166,7 +179,7 @@ img {
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
-
+        padding-bottom: 8px;
 }
 
 .features-text {
@@ -182,6 +195,18 @@ img {
 
 .section-team {
     background: #f4f4fd;
+    padding-bottom: 120px;
+}
+
+.container-team{
+padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-list{
+display: flex;
+align-items: center;
+gap: 24px;
 }
 
 .team-title {
@@ -193,6 +218,8 @@ img {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
 .team-item {
@@ -207,6 +234,8 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+                padding-top: 32px;
+                    padding-bottom: 8px;
 }
 
 .person-text {
@@ -217,9 +246,23 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
 
 /* Portfolio Section 4 */
+
+.container-portfolio{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.portfolio-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .portfolio-title {
     font-family: "Roboto", sans-serif;
@@ -253,6 +296,8 @@ font-family: "Roboto", sans-serif;
 /* Footer */
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo {
@@ -263,6 +308,7 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-bottom: 16px;
 }
 
 .logo-text-footer {
@@ -276,4 +322,12 @@ font-family: "Roboto", sans-serif;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        padding-top: 16px;
+}
+
+.footer-container{
+display: column;
+align-items: left;
+max-width: 264px;
+margin-left: 156px;
 }
