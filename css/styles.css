@@ -36,6 +36,10 @@ img {
 
 /* Header */
 
+.hrader {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -350,6 +354,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     padding-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-text-footer {
