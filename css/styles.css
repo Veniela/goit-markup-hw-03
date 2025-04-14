@@ -376,10 +376,5 @@ padding-left: 0;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-top: 16px;
-}
-
-.footer-container{
-max-width: 264px;
-margin-left: 156px;
+        max-width: 264px;
 }
