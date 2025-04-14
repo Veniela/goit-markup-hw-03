@@ -36,7 +36,7 @@ img {
 
 /* Header */
 
-.hrader {
+.header {
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -90,8 +90,6 @@ img {
 .nav-link:focus {
     color: #404bbf;
 }
-
-/* Styles for contacts */
 
 .contacts {
     font-style: normal;
@@ -172,6 +170,10 @@ img {
     padding: 120px 0;
 }
 
+.features-container{
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -186,15 +188,14 @@ img {
 }
 
 .features-list {
-    display: flex;
-    gap: 24px;
+display: flex;
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
 .features-item {
 width: calc((100% - 72px) / 4);
+margin-right: 24px;
 }
 
 .features-title {
